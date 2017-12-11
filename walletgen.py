@@ -48,6 +48,7 @@ def multiwalletgen():
 	# Creating the multisignature script and writing the address to a file
 	scr = mk_multisig_script(keys, nons, nos)
 	writer("multisig-address", scriptaddr(scr))
+	print("**Address and private keys have been generated. Check the working directory")
 		
 def writer(name, text):
 	"""Method that writes to files
