@@ -4,7 +4,7 @@ from bitcoin import * #pip3 install bitcoin, pybitcointools #https://github.com/
 def main():
 	"""Main interface"""
 	
-	print("Bitcoin wallet generator\n\n Created by: Prematrix\nhttps://github.com/prematrix/BitcoinWalletGen")
+	print("Bitcoin Wallet Generator\n\nCreated by: Prematrix\nGitHub: https://github.com/prematrix/BitcoinWalletGen\n")
 	print("**WARNING: make sure that u don't have a privatekey.txt file in this directory. If so, it will be overwritten.")
 	while True:
 		choise = input("\n1. Single-sig\n2. Multi-sig\nChoise: ")
